@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YorzDraw</title>
+    <meta property="og:title" content="YorzDraw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <main class="home-source">
+          <img
+            alt="image"
+            src="public/playground_assets/groupe_30-400w.png"
+            class="home-image"
+          />
+          <div class="home-container1">
+            <span class="home-text">
+              <span>TITRE</span>
+              <br />
+            </span>
+            <input
+              type="text"
+              name="text"
+              required=""
+              placeholder="BlaBlaBla"
+              class="home-textinput input"
+            />
+          </div>
+          <div class="home-container2">
+            <div class="home-container3">
+              <span class="home-text03">
+                <span class="home-text04">GAP</span>
+                <br />
+              </span>
+              <input
+                type="text"
+                placeholder="-1"
+                value="-1"
+                class="home-textinput1 input"
+              />
+            </div>
+            <div class="home-container4">
+              <span class="home-text06">
+                <span class="home-text07">SPACE</span>
+                <br />
+              </span>
+              <input
+                type="text"
+                placeholder="6"
+                class="home-textinput2 input"
+              />
+            </div>
+          </div>
+          <div class="home-container5">
+            <div class="home-container6">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M342 556l170-172 170 172-60 60-68-68v178h-84v-178l-68 68zM854 768v-426h-684v426h684zM854 256q34 0 59 26t25 60v426q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h256l86 86h342z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home-container7">
+              <svg viewBox="0 0 1024 1024" class="home-icon2">
+                <path
+                  d="M342 640l170-170 170 170-60 62-68-68v176h-84v-176l-68 66zM768 854v-470h-214v-214h-298v684h512zM598 86l256 256v512q0 34-26 59t-60 25h-512q-34 0-60-25t-26-59l2-684q0-34 25-59t59-25h342z"
+                ></path>
+              </svg>
+            </div>
+            <button type="button" class="home-button button">
+              <span class="home-text09">
+                <span>PRODUIRE</span>
+                <br />
+              </span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
